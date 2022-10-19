@@ -84,7 +84,7 @@ const App = () => {
               </>
             )} 
             />
-            <Route 
+            <Route basename={process.env.PUBLIC_URL}
               path="/:taskTitle"
               exact 
               component={TaskDetails}
