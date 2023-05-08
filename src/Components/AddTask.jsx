@@ -28,7 +28,7 @@ const AddTask = ({handleTaskAddition}) => {
         <Button onClick={handleAddTaskClick}>Adicionar</Button>
         </div>
     </div>
-    );
+    )
 };
  
 export default AddTask;
