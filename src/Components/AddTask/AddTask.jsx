@@ -29,6 +29,6 @@ const AddTask = ({handleTaskAddition}) => {
         </div>
     </div>
     )
-};
+}
  
 export default AddTask;
